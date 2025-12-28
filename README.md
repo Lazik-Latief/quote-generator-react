@@ -19,7 +19,7 @@ The QuoteCard component shows the current quote in a styled card.
 Tailwind CSS is used for styling the buttons, card, and layout.
 
 ## Flow
-
+```
 User clicks category button
        ↓
 CategoryButtons component sends category to App.jsx
@@ -29,7 +29,7 @@ App.jsx selects a random quote from that category
 State updates → QuoteCard re-renders
        ↓
 Quote displayed on screen
----
+```
 ## How It Was Created
 Initialize project with Vite + React + Tailwind
 Create quotes.js for storing quotes
@@ -37,6 +37,11 @@ Build QuoteCard for showing quotes
 Build CategoryButtons for buttons and click handling
 Use App.jsx to manage state and connect components
 Style everything with Tailwind for clean, responsive UI
+
+---
+Screenshot:: <img width="718" height="331" alt="image" src="https://github.com/user-attachments/assets/53c808ea-e5c2-4c2d-a259-aac6a0460d92" />
+
+---
 
 ## Conclusion
 This project teaches:
